@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Page</title>
+<style type="text/css">
+.marquee
+{
+font-family: serif;
+font-style: italic;
+font-size: 75px;
+margin-top: -8px;
+height: 100px;
+width: 100%;
+color: white;
+
+}
+.table
+{
+margin-left: 405px;
+margin-top: 10px;
+}
+.home
+{
+font-family: cursive;
+font-size: 23px;
+margin-left: 492px;
+margin-top: 19px;
+text-decoration: none;
+}
+.slogan
+{
+margin-left: 521px;
+font-size: 48px;
+margin-top: -4px;
+font-style: oblique;
+}
+.slogan1
+{
+margin-left: 570px;
+font-size: 28px;
+margin-top: 4px;
+font-style: oblique;
+}
+.slogan2
+{
+margin-left: 527px;
+font-size: 44px;
+margin-top: 6px;
+font-style: oblique;
+}
+.slogan3
+{
+margin-left: 555px;
+font-size: 24px;
+margin-top: 5px;
+font-style: oblique;
+}
+.slogan4
+{
+margin-left: 524px;
+font-size: 55px;
+margin-top: -8px;
+font-style: oblique;
+}
+.slogan5
+{
+margin-left: 504px;
+font-size: 28px;
+margin-top: 9px;
+font-style: oblique;
+}
+.slogan6
+{
+margin-left: 521px;
+font-size: 56px;
+margin-top: -15px;
+font-style: oblique;
+}
+
+</style>
+</head>
+<body background="src/main/webapp/images/images.jpg">
+	<marquee class="marquee" height="50" bgcolor="blue">
+		Welcome to CloudJournee
+	</marquee>
+	
+	<form action="Rigistration" method="post">
+		<table class="table" border="1">
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name" placeholder="Enter name"
+					size="50"></td>
+			</tr>
+			<tr>
+				<td>Lastname:</td>
+				<td><input type="text" name="lname" size="50"
+					placeholder="Enter user name"></td>
+			</tr>
+			<tr>
+				<td>ID Card No:</td>
+				<td><input type="number" name="cardno" size="50"
+					placeholder="Enter cardno"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password" size="50" placeholder="Enter Password""
+					maxlength="10"></td>
+			</tr>
+			<tr>
+				<td>Location:</td>
+				<td><input type="text" name="village" size="50"
+					placeholder="enter village"></td>
+			</tr>
+			<tr>
+				<td>Mobile No:</td>
+				<td><input type="number" size="50" name="mobile"
+					placeholder="Enter mobile no" maxlength="10"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="submit" value="Submit"></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+			
+		</table>
+	</form>
+	
+				<a href="http://localhost:8080/home/index.jsp"><div class="home">Click Here To Home</div></a>
+			
+	</center>
+
+</body>
+</html>
